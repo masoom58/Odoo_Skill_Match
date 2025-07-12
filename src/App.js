@@ -16,6 +16,8 @@ function AppContent() {
     { path: "/landing", element: <LandingPage /> },
       { path: "/dashboard", element: <Dashboard /> },
       { path: "/connection", element: <ConnectionPage /> },
+     { path: "/myswap", element: < Myswaps /> },
+    
           { path: "/notification", element: < Notification /> },
    
       { path: "/landing", element: <LandingPage /> },
