@@ -6,7 +6,8 @@ import Signup from "./features/auth/Signup";
 import LandingPage from "./features/landing/LandingPage";
 // import Dashboard from "./features/dashboard/Dashboard"; // fix capitalization if used
 
-
+import Dashboard from "./features/dashboard/dashboard";
+import ConnectionPage from "./features/liveLearning/Livelearning";
 
 function AppContent() {
   const routesArray = [
@@ -16,6 +17,8 @@ function AppContent() {
     { path: "/landing", element: <LandingPage /> },
       { path: "/dashboard", element: <Dashboard /> },
       { path: "/connection", element: <ConnectionPage /> },
+      { path: "/swapreq", element: <Swapreq /> },
+   
      { path: "/myswap", element: < Myswaps /> },
     
           { path: "/notification", element: < Notification /> },
