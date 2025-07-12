@@ -5,7 +5,9 @@ import Login from "./features/auth/Login";
 import Signup from "./features/auth/Signup";
 import LandingPage from "./features/landing/LandingPage";
 // import Dashboard from "./features/dashboard/Dashboard"; // fix capitalization if used
-
+import Swapreq from './features/swapreq/Swapreq';
+import Myswaps from './features/myswaps/Myswaps';
+import Notification from './features/notification/Notification';
 import Dashboard from "./features/dashboard/dashboard";
 import ConnectionPage from "./features/liveLearning/Livelearning";
 
