@@ -14,6 +14,9 @@ function AppContent() {
     { path: "/login", element: <Login /> },
     { path: "/signup", element: <Signup /> },
     { path: "/landing", element: <LandingPage /> },
+      { path: "/dashboard", element: <Dashboard /> },
+      { path: "/connection", element: <ConnectionPage /> },
+      { path: "/landing", element: <LandingPage /> },
     // { path: "/profile", element: <Dashboard /> },
     { path: "*", element: <Navigate to="/login" /> } // catch-all to login
   ];
