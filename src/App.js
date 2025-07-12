@@ -16,6 +16,8 @@ function AppContent() {
     { path: "/landing", element: <LandingPage /> },
       { path: "/dashboard", element: <Dashboard /> },
       { path: "/connection", element: <ConnectionPage /> },
+          { path: "/notification", element: < Notification /> },
+   
       { path: "/landing", element: <LandingPage /> },
     // { path: "/profile", element: <Dashboard /> },
     { path: "*", element: <Navigate to="/login" /> } // catch-all to login
